@@ -16,15 +16,9 @@ background: #000000;
     flex-direction: row;
    margin-left: 134px;
   margin-bottom: 0;
-    /* align-items: flex-start; */
-    padding: 0px;
-    /* gap: 10px; */
    
-    width: 210px;
-    height: 26px;
-    
-    
-    /* Inside auto layout */
+    padding: 0px;
+   
     
     flex: none;
     order: 0;
@@ -39,9 +33,6 @@ line-height: 24px;
 
 color: #FFFFFF;
 
-
-/* Inside auto layout */
-
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -52,17 +43,13 @@ flex-grow: 0;
     justify-content: center;
     display: flex;
 flex-direction: row;
-/* align-items: flex-start; */
+
 padding: 0px;
 gap: 10px;
 margin-top: 0;
 margin-bottom: 10px;
 width: 1136px;
 height: 51px;
-
-
-/* Inside auto layout */
-
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -78,7 +65,7 @@ line-height: 51px;
 color: #FFFFFF;
 
 
-/* Inside auto layout */
+
 
 flex: none;
 order: 0;

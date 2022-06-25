@@ -3,7 +3,7 @@ import './Css/Frontpage.css'
 import { useState } from 'react'
 import Content from './Content';
 
-import Card1 from './Card1';
+
 import Weeklycontent from './Weeklycontent';
 import Sponsered from './Sponsered';
 import Included_content from './Included_content';
@@ -47,9 +47,7 @@ export default function Frontpage() {
         Deep down into Courses
         </p>
         </div>
-        <div className='arrow1'>
-
-        </div>
+      
         </div>
         <div className='second+part'>
         <div className='title2'>

@@ -1,8 +1,5 @@
 .content{
-    /* position: relative;
-    top:1394px;
-    display: flex;
-    flex-direction: column; */
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -41,7 +38,7 @@ line-height: 74px;
 color: #000000;
 
 
-/* Inside auto layout */
+
 
 flex: none;
 order: 0;
@@ -65,8 +62,7 @@ top: 1677px;
 .content_box .start h2{
     box-sizing: border-box;
 margin: 0;
-    width: 8px;
-    height: 24px;
+   
     
     font-family: 'Montserrat';
     font-style: normal;
@@ -76,7 +72,7 @@ margin: 0;
     text-align: center;
     
     color: #FFFFFF;
-/* Auto layout */
+
 
 display: flex;
 flex-direction: column;
@@ -107,7 +103,7 @@ width: 194px;
 height: 186px;
 
 
-/* Inside auto layout */
+
 
 flex: none;
 order: 0;
