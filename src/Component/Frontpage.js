@@ -1,6 +1,10 @@
 import React from 'react'
 import './Css/Frontpage.css'
 import { useState } from 'react'
+import Content from './Content';
+
+import Card1 from './Card1';
+import Weeklycontent from './Weeklycontent';
 export default function Frontpage() {
     const [style1, setStyle1] = useState(true);
     const [style2, setStyle2] = useState(true);
@@ -25,6 +29,8 @@ export default function Frontpage() {
     }
   return (
     <>
+    <div className='project_parts'>
+    <div className='first_page'>
         <div className='title1'>
             <h1>Your gateway to Product Industry</h1>
         </div>
@@ -42,6 +48,8 @@ export default function Frontpage() {
         <div className='arrow1'>
 
         </div>
+        </div>
+        <div className='second+part'>
         <div className='title2'>
 
 <div className='duration'>
@@ -82,6 +90,8 @@ IN 12 WEEKS
 
                 </div>
             </div>
+            </div>
+
         <div className='ellipse2'>
             
             </div>
@@ -97,39 +107,14 @@ IN 12 WEEKS
         <div className='ellipse6'>
             
             </div>
-         
-            {/* <div className='learning_box'>
-                <div className='box'>
-                <div className='rect'></div>
-                <div>
+         <div className='third_part'>
+          <Content/>  
+          </div>   
 
-<h2>Product Design</h2>
-    <p>You’ll learn from the best in the design industry; join Dan Mall and the former hiring manager at Google, for live and interactive sessions.</p>
-</div>
-                    <div className='btn'>Insight</div>
-                </div>
-                <div className='box'>
-                <div className='rect'></div>
-                <div>
-
-<h2>Product Design</h2>
-    <p>You’ll learn from the best in the design industry; join Dan Mall and the former hiring manager at Google, for live and interactive sessions.</p>
-</div>
-                    <div className='btn'>Insight</div>
-
-                </div>
-                <div className='box'>
-                <div className='rect'></div>
-                <div>
-
-                <h2>Product Design</h2>
-                    <p>You’ll learn from the best in the design industry; join Dan Mall and the former hiring manager at Google, for live and interactive sessions.</p>
-                </div>
-                    <div className='btn'>Insight</div>
-
-                </div>
-            </div> */}
-       
+          <div className='fourth_part'>
+            <Weeklycontent/>
+          </div> 
+          </div>  
     </>
   )
 }
