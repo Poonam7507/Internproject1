@@ -31,6 +31,33 @@ export default function Weeklycontent() {
         line3:"Introduction to UX and UI design",
         line4:"What is the design thinking process",
         line5:"The double diamond approach"
+    },
+      { id:4,
+        week:"Week One",
+        start:"Getting Started",
+        line1:"Breaking the ice and meeting your classmates",
+        line2:"Getting to know your instructor",
+        line3:"Introduction to UX and UI design",
+        line4:"What is the design thinking process",
+        line5:"The double diamond approach"
+    },
+      { id:5,
+        week:"Week One",
+        start:"Getting Started",
+        line1:"Breaking the ice and meeting your classmates",
+        line2:"Getting to know your instructor",
+        line3:"Introduction to UX and UI design",
+        line4:"What is the design thinking process",
+        line5:"The double diamond approach"
+    },
+      { id:6,
+        week:"Week One",
+        start:"Getting Started",
+        line1:"Breaking the ice and meeting your classmates",
+        line2:"Getting to know your instructor",
+        line3:"Introduction to UX and UI design",
+        line4:"What is the design thinking process",
+        line5:"The double diamond approach"
     }
     ]
   return (
@@ -45,20 +72,13 @@ export default function Weeklycontent() {
           line4={arr.line4}
           line5={arr.line5}
 />
-            // {/* <div className='weekly_material'>
-            //   <div className='box1'>  <h3>{arr.week}</h3></div>
-            //     <h2>{arr.start}</h2>
-            //     <li>{arr.line1}</li>
-            //     <li>{arr.line2}</li>
-            //     <li>{arr.line3}</li>
-            //     <li>{arr.line4}</li>
-            //     <li>{arr.line5}</li>
-            // </div> */}
+           
             
             
             
           })}
         
+          <div className='expand'>Expand All</div>
     </div>
 
     </>

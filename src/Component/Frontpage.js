@@ -5,6 +5,8 @@ import Content from './Content';
 
 import Card1 from './Card1';
 import Weeklycontent from './Weeklycontent';
+import Sponsered from './Sponsered';
+import Included_content from './Included_content';
 export default function Frontpage() {
     const [style1, setStyle1] = useState(true);
     const [style2, setStyle2] = useState(true);
@@ -114,6 +116,12 @@ IN 12 WEEKS
           <div className='fourth_part'>
             <Weeklycontent/>
           </div> 
+          <div className='fifth_part'>
+            <Sponsered/>
+          </div>
+          <div className='sixth_part'>
+            <Included_content/>
+          </div>
           </div>  
     </>
   )
