@@ -126,3 +126,8 @@ margin: 0;
 margin-left: 0;
 
 }
+
+.start:hover{
+    box-shadow: 1px 1px 4px  3px grey;
+    padding: 1%;
+}

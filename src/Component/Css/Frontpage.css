@@ -202,6 +202,7 @@ width: 1036px;
 height: 419px;
 left: 121px;
 top: 900px;
+background:white;
 
 }
 .learning_box .box{
@@ -281,7 +282,8 @@ flex-grow: 0;
    
 }
 
-.learning_box .box:hover{
+.learning_box :hover{
     background-color: black;
     color: white;
 }
+
