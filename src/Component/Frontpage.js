@@ -68,7 +68,7 @@ IN 12 WEEKS
         <div className='learning_box'>
                 <div className='box' onMouseEnter={hover1} onMouseLeave={out1}>
                 <div className='rect'></div>
-                <div>
+                <div className='learn'>
 
 <h2 >Product Design</h2>
     <p style={{color:style1?"black":"white"}}>You'll learn from the best in the design industry; join Dan Mall and the former hiring manager at Google, for live and interactive sessions.</p>
